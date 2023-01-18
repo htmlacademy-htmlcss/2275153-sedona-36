@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Denis Balandin](https://up.htmlacademy.ru/htmlcss/36/user/2275153).
-* Наставник: `Неизвестно`.
+* Наставник: [Иван Жарков](https://htmlacademy.ru/profile/id191422).
 
 ---
 

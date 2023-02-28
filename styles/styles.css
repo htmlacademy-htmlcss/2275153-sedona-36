@@ -34,11 +34,10 @@ body {
   font-weight: 700;
   text-align: center;
   background-color: #ffffff;
-  text-decoration: none;
-}
+  }
 
 .main-index {
-  background-image: url("../images/index-background.jpg");
+  background-image: url("../images/welcome.svg");
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
@@ -71,9 +70,9 @@ body {
 
 }
 
-.advantages-item {
-  width: 400px;
-  height: 385px;
+.advantages-item-town,
+.advantages-item-bridge {
+  width: 800px;
   background-color: #82B3D3;
   color: #ffffff;
 }
@@ -134,7 +133,7 @@ body {
   height: 415px;
 }
 
-.subscribe-email {
+.subscribe-email-main {
   color: #ffffff;
   font-weight: 700;
   font-size: 30px;
@@ -169,13 +168,14 @@ body {
   color: #FFFFFF;
 }
 
-.footer-phonenumber {
+.footer-phonenumber-link {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  text-decoration: none;
 }
 
 .inner-header {
@@ -203,7 +203,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-  background-color: #82B3D3;
 }
 
 .control {
@@ -211,7 +210,6 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-  background-color: #82B3D3;
 }
 
 .button-accept {
@@ -241,6 +239,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .hotel-card-text,
@@ -257,6 +257,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .button-favourites {
@@ -265,6 +267,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .button-infavorites {
@@ -273,6 +277,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .rating {
@@ -285,11 +291,15 @@ body {
 
 .pagination-link {
   background-color: #82B3D3;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .pagination-current,
 .pagination-points {
   background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
 }
 
 .subscribe-catalog {
@@ -308,4 +318,9 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+}
+
+.inner-header-background {
+  background-image: url("../images/background-filter.jpg");
+  width: 1200px;
 }

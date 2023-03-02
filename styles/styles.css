@@ -34,10 +34,12 @@ body {
   font-weight: 700;
   text-align: center;
   background-color: #ffffff;
-  }
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-.main-index {
-  background-image: url("../images/welcome.svg");
+.background-index {
+  background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
@@ -99,6 +101,7 @@ body {
   height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
+  text-transform: uppercase;
 }
 
 .services-item-food {
@@ -125,28 +128,43 @@ body {
   border-radius: 4px;
 }
 
-.subscribe-main {
-  background-image: url("../images/background-subscribe.jpg");
-  background-color: #82B3D3;
-  background-repeat: no-repeat;
-  width: 1200px;
-  height: 415px;
-}
-
-.subscribe-email-main {
-  color: #ffffff;
+.subscribe-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.subscribe-info-textcolor {
-  color: #ffffff;
+.subscribe-info {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  color: #333333;
+}
+
+.subscribe-main {
+  background-image: url("../images/background-subscribe.jpg");
+  width: 1200px;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title-main {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscribe-info-main {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .subscribe-form {
@@ -166,6 +184,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .footer-phonenumber-link {
@@ -176,12 +195,6 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-}
-
-.inner-header {
-  background-image: url(../images/background-filter.jpg);
-  width: 1200px;
-  height: 412px;
 }
 
 .inner-header-title {
@@ -203,6 +216,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
+  text-transform: capitalize;
 }
 
 .control {
@@ -218,6 +232,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .sorting-howmany {
@@ -225,6 +240,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -240,7 +256,7 @@ body {
   line-height: 28px;
   color: #000000;
   text-decoration: none;
-  }
+}
 
 .hotel-card-text,
 .hotel-card-price {
@@ -248,6 +264,10 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+}
+
+.hotel-card-link {
+  text-decoration: none;
 }
 
 .button-details {
@@ -286,12 +306,18 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #333333;
+  text-transform: uppercase;
 }
 
 .pagination-link {
   background-color: #82B3D3;
   color: #FFFFFF;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination-current {
+  text-transform: uppercase;
 }
 
 .pagination-current,
@@ -301,23 +327,7 @@ body {
   text-decoration: none;
 }
 
-.subscribe-catalog {
-  background: #FFFFFF;
-}
 
-.subscribe-email-catalog {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
-}
-
-.subscribe-info-catalog {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-}
 
 .inner-header-background {
   background-image: url("../images/background-filter.jpg");

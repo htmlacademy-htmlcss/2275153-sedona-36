@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -27,6 +35,35 @@ body {
   background-color: #ffffff
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  width: 140px;
+  margin: 0 auto;
+  margin-left: 70px;
+}
+
+.navigation-list {
+  width: 340px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.navigation-user {
+  width: 268px;
+  margin-left: auto;
+  display: inline;
+}
+
 .navigation-link {
   color: #000000;
   font-size: 20px;
@@ -34,8 +71,24 @@ body {
   font-weight: 700;
   text-align: center;
   background-color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
+}
+
+.navigation-link-here {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .background-index {
@@ -43,6 +96,31 @@ body {
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.advantages-title {
+  text-transform: uppercase;
+}
+
+.advantages {
+  margin: 0;
+  padding: 0;
+}
+.true-town {
+  display: block;
+  margin: 0;
+  padding: 0;
+  weight: 400px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .advantages-title-main,
 .services-title-main,
@@ -126,6 +204,7 @@ body {
   background-color: #756157;
   text-decoration: none;
   border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .subscribe-title {
@@ -150,12 +229,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.subscribe-title-main {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
+.subscribe-main .subscribe-title,
+.subscribe-main .subscribe-info {
   color: #FFFFFF;
 }
 
@@ -232,6 +307,14 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-reset {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
